@@ -6,7 +6,8 @@ const l = 42, // 滑块边长
   PI = Math.PI;
 var _url = "";
 const L = l + r * 2 + 3; // 滑块实际边长
-const isIE = window.navigator.userAgent.indexOf("Trident") > -1;
+// const isIE = window.navigator.userAgent.indexOf("Trident") > -1;
+const isIE = false
 //随机数
 function getRandomNumberByRange(start, end) {
   return Math.round(Math.random() * (end - start) + start);

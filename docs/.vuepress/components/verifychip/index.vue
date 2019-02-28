@@ -9,7 +9,7 @@
  * onrefresh为刷新回调事件
  * onfail为失败回调事件
  */
-import { _canvas } from "./constructor.js";
+// import { _canvas } from "./constructor.js";
 export default {
   data() {
     return {
