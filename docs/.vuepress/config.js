@@ -6,7 +6,7 @@ module.exports = {
 
     }
   },
-  //base: 'http://docs.vue.test.dc-it.cn/',//打包文件生成的路径
+  base: '/myblog/',//打包文件生成的路径
   themeConfig: {
     lastUpdated: 'Last Updated', // string | boolean
     sidebarDepth: 2,
