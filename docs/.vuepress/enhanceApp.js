@@ -1,9 +1,10 @@
-import VueHighlightJS from 'vue-highlight.js';
-import 'highlight.js/styles/atom-one-dark.css';
-import Element from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
-import VueECharts from 'vue-echarts' //注册图表
-import './public/css/index.css' //组件css文件
+import VueHighlightJS from "vue-highlight.js";
+import "highlight.js/styles/atom-one-dark.css";
+import Element from "element-ui";
+import "element-ui/lib/theme-chalk/index.css";
+import VueECharts from "vue-echarts"; //注册图表
+import "./public/css/index.css"; //组件css文件
+import { _canvas } from "./components/verifychip/constructor";
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
   options, // 附加到根实例的一些选项
@@ -11,7 +12,7 @@ export default ({
   siteData // 站点元数据
 }) => {
   // ...做一些其他的应用级别的优化
-  Vue.use(VueHighlightJS)
-  Vue.use(Element)
-  Vue.component('chart', VueECharts)
-}
+  Vue.use(VueHighlightJS);
+  Vue.use(Element);
+  Vue.component("chart", VueECharts);
+};

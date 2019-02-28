@@ -9,7 +9,7 @@
  * onrefresh为刷新回调事件
  * onfail为失败回调事件
  */
-import { canvas } from "./constructor.js";
+import { _canvas } from "./constructor.js";
 export default {
   data() {
     return {
@@ -37,7 +37,7 @@ export default {
             this.imgName[
               this.getRandomNumberByRange(0, this.imgName.length - 1)
             ];
-      canvas.init({
+      _canvas.init({
         el: this.$refs[this.canvasKey],
         onSuccess: _this.result(0),
         onFail: _this.result(1),
@@ -64,3 +64,7 @@ export default {
   }
 };
 </script>
+<style>
+@import "./verify.css";
+</style>
+

@@ -94,7 +94,7 @@ export function m_callback(params) {
 }
 ```
 
-结果： ![运行结果](/table.png)
+<!-- 结果： ![运行结果](/table.png) -->
 
 #### 属性 props
 
