@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "docs:build": "vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "vuepress dev docs",
     "build": "vuepress build docs"
