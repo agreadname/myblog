@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # 确保脚本抛出遇到的错误
-set -e
+# set -e
 
 # 生成静态文件
 npm run docs:build
@@ -21,5 +21,3 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO> 
 git push -f git@github.com:agreadname/myblog.git master:gh-pages
-
-cd -

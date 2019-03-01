@@ -7,6 +7,8 @@ module.exports = {
     }
   },
   base: '/myblog/',//打包文件生成的路径
+  repo:'https://github.com/agreadname/myblog',
+  dest:'./docs/.vuepress/dist',
   themeConfig: {
     lastUpdated: 'Last Updated', // string | boolean
     sidebarDepth: 2,
@@ -86,7 +88,7 @@ module.exports = {
       },
     ]
   },
-
+serviceWorker:true
 
 
 }
